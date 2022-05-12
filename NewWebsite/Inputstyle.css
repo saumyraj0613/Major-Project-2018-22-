@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap");
+
+/*font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 3px solid #00adf3;
+    /*background: #00ADF3;*/
+}
+
+.logo {
+    font-family: "Lobster", cursive;
+    font-size: 2rem;
+}
+
+.color-text {
+    color: #00adf3;
+}
+
+.header {
+    /* margin-top: 20px;
+    height: 60vh; */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Noto Sans JP',sans-serif;
+    
+}
+
+.banner{
+    width: 95%;
+    height: 30vh;
+    object-fit: cover;
+    margin: 30px auto;
+    display: block;
+}
+
+.name{
+    color:black;
+    font-size: 6em;
+    margin:auto;
+    /* font-family: 'Square Peg',cursive; */
+    font-weight: bolder;
+}
+
+.company-name{
+    padding: 0 90px;
+}
+
+.company-logo{
+    width: 50%;
+    padding: 40px;
+}
+
+.logo{
+    width: 50%;
+    border-radius: 50%;
+    padding: auto;
+}
+
+.header > div {
+    font-family: "Noto Sans JP",
+    sans-serif;
+    font-size: 1.6rem;
+
+    
+}
+
+.description {
+    background-color: #CCF2F4;
+    margin: 5rem 0;
+    font-family: "Noto Sans JP",
+    sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    /* height: 45vh; */
+    padding: 50px 15px;
+
+}
+
+
+.job-desc {
+    /* font-family: "Noto Sans JP",sans-serif; */
+    text-align: center;
+    margin: 50px;
+    font-weight: bolder;
+}
+
+
+.inputbtn{
+    margin: 0 0 50px 0;
+    padding:10px;
+    text-align: center;
+}
+
+input[type=file]::file-selector-button {
+    background-color: #1C6DD0;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 1233px;
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    background: #1e2021;
+    color: white;
+    /*text-align: center;*/
+    font-family: "Lobster", cursive;
+    font-size: 1.1rem;
+    text-align: center;
+    height: -15vh;
+    padding-top: 3.5rem;
+}
+
+#Contact {
+    margin-top: 6rem;
+}

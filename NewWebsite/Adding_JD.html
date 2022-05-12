@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+	<link rel="stylesheet" type="text/css" href="Adding_JD.css">
+	<link rel="stylesheet" type="text/css" href="mobile.css">
+	<link rel="stylesheet" type="text/css" href="tab.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/4e55c5f54e.js" crossorigin="anonymous"></script>
+
+
+	<title>CV Analysis</title>
+
+</head>
+<body>
+<nav class="navbar">
+	<h1 class="logo">CV<span class="color-text">A</span>nalysis</h1>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#About">Previous JD's</a></li>
+		<li><a href="#Work">Upload New JD</a></li>
+		<li><a href="#">Logout</a></li>
+	</ul>
+</nav>
+<header class="header">
+
+
+	<div class="header-div">
+		<h4>Welcome Back, Company Name
+			<br><span class="head5">Some lines About company</span>
+		</h4>
+		<img src="1.png" class="img-n">
+	</div>
+</header>
+<section id="About">
+	<div class="about-div">
+<p class="about-main-p">Previous JD's</p>
+<h1 class="about-h1">Your JD's</h1>
+<p class="about-p"> These are all the JD's and the role you provided previously. You can manage it from here by clicking on them.</p>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Role</th>
+      <th scope="col">Submitted JD</th>
+      <th scope="col">Students Enrolled</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Java Developer</td>
+      <td>blank</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Python Developer</td>
+      <td>blank</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="btn">update JD's</button>
+</div>
+</section>
+<section id="Work">
+	<div class="Work-div">
+<h1 class="Work-h1">Upload a new JD</h1>
+<p class="Work-p">Upload your new JD in the given pdf or word format below.</p>
+<form>
+	<div class="form-group">
+    <label for="role">Role</label>
+    <input type="text" class="form-control" id="role" placeholder="Enter Role">
+  </div>
+	<br>
+  <div class="form-group">
+    <label for="JD">JD</label>
+    <input type="file" class="form-control-file" id="JD">
+  </div>
+	<br>
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</section>
+
+<section id="Contact">
+		<h1 class="f-h1">Contact us</h1>
+		<div class="form">
+			<form class="container form" >
+				<input type="text" name="name" placeholder="Your name"><br>
+				<input type="email" name="name"  placeholder="email address"><br>
+				<input type="number" name="name" placeholder="phone no"><br>
+				<button class="btn">Submit</button>
+			</form>
+		</div>
+		</div>
+	</section>
+<footer>
+	<h1>CV Analysis</h1>
+
+	<p>&copy 2022</p>
+
+
+</footer>
+</body>
+</html>
